@@ -25,5 +25,6 @@ public class Main {
 
 
         gateway.onDisconnect().block(); //Cuando se desconecta del gateaway bloquea al final el bot
+        System.out.println("Este es el commit final");
     }
 }
